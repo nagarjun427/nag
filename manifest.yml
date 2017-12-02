@@ -1,0 +1,7 @@
+---
+applications:
+- name: account-service
+  memory: 1024M
+  health-check-type: port
+  stack: cflinuxfs2
+  buildpack: java_buildpack
